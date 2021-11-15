@@ -10,8 +10,8 @@ import { PatientsService } from './patients.service';
   }
 })
 
-@ApiTags('Patients')
-@Controller('patients')
-export class PatientsController {
+@ApiTags('Animals')
+@Controller('animals')
+export class AnimalsController {
   constructor(public service: PatientsService) {}
 }

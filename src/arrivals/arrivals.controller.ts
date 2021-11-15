@@ -10,8 +10,8 @@ import { Arrivals } from './entities/arrivals.entity';
   }
 })
 
-@ApiTags("Arrivals")
-@Controller('arrivals')
-export class ArrivalsController implements CrudController<Arrivals>{
+@ApiTags("Emergency Calls")
+@Controller('emergencyCall')
+export class EmergencyCall implements CrudController<Arrivals>{
   constructor(public service: ArrivalsService) {}
 }

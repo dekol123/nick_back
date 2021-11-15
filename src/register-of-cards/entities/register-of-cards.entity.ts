@@ -2,7 +2,7 @@ import { ApiProperty } from '@nestjsx/crud/lib/crud';
 import { Arrivals } from 'src/arrivals/entities/arrivals.entity';
 import { Column, Entity, PrimaryGeneratedColumn, OneToMany } from 'typeorm';
 
-@Entity('registerOfCards')
+@Entity('animalOwner')
 export class RegisterOfCards {
     @PrimaryGeneratedColumn()
     id: number;

@@ -10,8 +10,8 @@ import { NewsService } from './news.service';
   }
 })
 
-@ApiTags('News')
-@Controller('news')
-export class NewsController implements CrudController<News>{
+@ApiTags('Vet News')
+@Controller('vetNews')
+export class VetNewsController implements CrudController<News>{
   constructor(public service: NewsService) {}
 }

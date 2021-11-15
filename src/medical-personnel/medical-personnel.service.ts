@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { TypeOrmCrudService } from '@nestjsx/crud-typeorm';
 import { MedicalPersonnel } from './entities/medical-personnel.entity';
-import { MedicalPersonnelController } from './medical-personnel.controller';
+import { VetPersonnelController } from './medical-personnel.controller';
 
 @Injectable()
 export class MedicalPersonnelService extends TypeOrmCrudService<MedicalPersonnel>{

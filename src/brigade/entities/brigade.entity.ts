@@ -3,7 +3,7 @@ import { Column, Entity, PrimaryGeneratedColumn, OneToMany, ManyToMany } from 't
 import { BrigadeMedicalPersonnel } from 'src/brigade-medical-personnel/entities/brigade-medical-personnel.entity';
 import { ApiProperty, ApiTags } from '@nestjs/swagger';
 
-@Entity('brigade')
+@Entity('emergencyCallGroup')
 export class Brigade {
     @PrimaryGeneratedColumn()
     id: number;

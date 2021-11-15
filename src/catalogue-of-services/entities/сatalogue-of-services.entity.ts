@@ -3,7 +3,7 @@ import { ComplexOfServices } from 'src/complex-of-services/entities/complex-of-s
 import { MedicalPersonnel } from 'src/medical-personnel/entities/medical-personnel.entity';
 import { Column, Entity, JoinTable, ManyToMany, PrimaryGeneratedColumn } from 'typeorm';
 
-@Entity('catalogueOfServices')
+@Entity('listOfServices')
 export class CatalogueOfServices{
     @PrimaryGeneratedColumn()
     id: number;

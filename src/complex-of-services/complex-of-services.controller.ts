@@ -20,7 +20,7 @@ import { ComplexOfServices } from './entities/complex-of-services.entity';
 })
 
 @ApiTags('Complex of services')
-@Controller('complex-of-services')
-export class ComplexOfServicesController implements CrudController<ComplexOfServices> {
+@Controller('complexServices')
+export class ComplexServicesController implements CrudController<ComplexOfServices> {
   constructor(public service: ComplexOfServicesService) {}  
 }

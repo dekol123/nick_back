@@ -2,7 +2,7 @@ import { CatalogueOfServices } from 'src/catalogue-of-services/entities/сatalog
 import { Patients } from 'src/patients/entities/patients.entity';
 import { Column, Entity, PrimaryGeneratedColumn, ManyToMany } from 'typeorm';
 
-@Entity('medicalPersonnel')
+@Entity('vetPersonnel')
 export class MedicalPersonnel {
     @PrimaryGeneratedColumn()
     id: number;

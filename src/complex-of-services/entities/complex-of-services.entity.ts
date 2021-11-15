@@ -3,7 +3,7 @@ import { CatalogueOfServices } from 'src/catalogue-of-services/entities/сatalog
 import { Column, Entity, PrimaryGeneratedColumn, ManyToMany } from 'typeorm';
 
 
-@Entity('complexOfServices')
+@Entity('complexServices')
 export class ComplexOfServices {
     @PrimaryGeneratedColumn()
     id: number;
